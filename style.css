@@ -1,0 +1,42 @@
+body
+{
+    background-color: grey;
+    font-family: Verdana;
+    font-size: 20px;
+    color: white;
+}
+ 
+h1
+{
+    font-size: 48px;
+    color: red !important;
+}
+ 
+a:link
+{
+    color: yellow;
+}
+ 
+a:visited
+{
+    color:yellow;
+}
+
+a:hover
+{
+    color: red;
+}
+footer {
+  clear:both;
+  margin-top:10px;
+  padding:10px;
+  background: #84BA4E;
+  display: block;
+  overflow: hidden;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+footer nav ul {margin:0; padding:0;}
+footer nav ul li{float:left;margin-left: 20px;position: relative;list-style: none;}
+footer nav ul li a{text-decoration: none;color: inherit;}
